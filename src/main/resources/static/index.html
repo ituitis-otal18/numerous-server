@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Numerous API</title>
+  <meta charset="utf-8">
+  <link rel="icon" href="favicon.png" type="image/png"/>
+  <link rel="stylesheet" href="index.css" type="text/css"/>
+</head>
+<body>
+
+<h1>Tweets</h1>
+<div>
+  <h3>New Tweet</h3>
+  <p>POST - JSON: "user", "number", "text"</p>
+  <a>https://numerous-server.herokuapp.com/api/v1/tweets</a>
+</div>
+
+<div>
+  <h3>Delete Tweet</h3>
+  <p>DELETE - JSON: "userPw"</p>
+  <a>https://numerous-server.herokuapp.com/api/v1/tweets/"id"</a>
+</div>
+
+<div>
+  <h3>Get All Tweets</h3>
+  <p>GET</p>
+  <a>https://numerous-server.herokuapp.com/api/v1/tweets</a>
+</div>
+
+<h1>Users</h1>
+<div>
+  <h3>Login</h3>
+  <p>POST - JSON: "mail", "password"</p>
+  <a>https://numerous-server.herokuapp.com/api/v1/login</a>
+</div>
+
+<div>
+  <h3>New User</h3>
+  <p>POST - JSON: "number", "mail", "password"</p>
+  <a>https://numerous-server.herokuapp.com/api/v1/users</a>
+</div>
+
+<div>
+  <h3>Delete User</h3>
+  <p>DELETE - JSON: "userPw"</p>
+  <a>https://numerous-server.herokuapp.com/api/v1/users/"id"</a>
+</div>
+
+<div>
+  <h3>Get All Users</h3>
+  <p>GET - JSON: "adminPw"</p>
+  <a>https://numerous-server.herokuapp.com/api/v1/users</a>
+</div>
+
+<div>
+  <h3>Get Tweets of a User</h3>
+  <p>GET</p>
+  <a>https://numerous-server.herokuapp.com/api/v1/users/"id"</a>
+</div>
+
+</body>
+</html>

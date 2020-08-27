@@ -1,0 +1,18 @@
+body {
+    text-align: center;
+    background: #2F4F4F;
+    color: #FFFFFF;
+    font: 16px Arial, sans-serif;
+}
+div {
+    background: #696969;
+    display: inline-block;
+    border: 3px solid #B22222;
+    border-radius: 25px;
+    padding: 40px;
+    margin: 40px;
+}
+
+h1{
+    color: red;
+}
